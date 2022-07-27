@@ -97,8 +97,9 @@ let formatter = {
         if(pos >= 0) {
             textNew += this.nationalCharacters.replacements[pos];
         }
-        else
+        else {
             textNew += char;
+        }
     }
     text = textNew;
     // set font to normal if already formatted with selected font
