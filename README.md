@@ -11,6 +11,14 @@
     <img src="https://img.shields.io/discord/819650821314052106?color=7289DA&logo=discord&logoColor=white&style=for-the-badge"/></a>
 </p>
 
+## Polish text sample (may have issues resulting from bad positioning)
+𝐷𝑜 𝑡𝑦𝑐ℎ 𝑝𝑜́𝑙 𝑚𝑎𝑙𝑜𝑤𝑎𝑛𝑦𝑐ℎ 𝑧𝑏𝑜𝑧̇𝑒𝑚 𝑟𝑜𝑧𝑚𝑎𝑖𝑡𝑒𝑚,<br>
+𝑊𝑦𝑧̷𝑙𝑎𝑐𝑎𝑛𝑦𝑐ℎ 𝑝𝑠𝑧𝑒𝑛𝑖𝑐𝑎̨, 𝑝𝑜𝑠𝑟𝑒𝑏𝑟𝑧𝑎𝑛𝑦𝑐ℎ 𝑧̇𝑦𝑡𝑒𝑚;<br>
+𝐺𝑑𝑧𝑖𝑒 𝑏𝑢𝑟𝑠𝑧𝑡𝑦𝑛𝑜𝑤𝑦 𝑠́𝑤𝑖𝑒𝑟𝑧𝑜𝑝, 𝑔𝑟𝑦𝑘𝑎 𝑗𝑎𝑘 𝑠́𝑛𝑖𝑒𝑔 𝑏𝑖𝑎̷𝑙𝑎,<br>
+𝐺𝑑𝑧𝑖𝑒 𝑝𝑎𝑛𝑖𝑒𝑛́𝑠𝑘𝑖𝑚 𝑟𝑢𝑚𝑖𝑒𝑛́𝑐𝑒𝑚 𝑑𝑧𝑖𝑒̨𝑐𝑖𝑒𝑙𝑖𝑛𝑎 𝑝𝑎̷𝑙𝑎,<br>
+𝐴 𝑤𝑠𝑧𝑦𝑠𝑡𝑘𝑜 𝑝𝑟𝑧𝑒𝑝𝑎𝑠𝑎𝑛𝑒 𝑗𝑎𝑘𝑏𝑦 𝑤𝑠𝑡𝑒̨𝑔𝑎̨, 𝑚𝑖𝑒𝑑𝑧𝑎̨<br>
+𝑍𝑖𝑒𝑙𝑜𝑛𝑎̨, 𝑛𝑎 𝑛𝑖𝑒𝑗 𝑧𝑟𝑧𝑎𝑑𝑘𝑎 𝑐𝑖𝑐ℎ𝑒 𝑔𝑟𝑢𝑠𝑧𝑒 𝑠𝑖𝑒𝑑𝑧𝑎̨. 
+
 ## ⚡ Try it out!
 
 [git.io/unicode-formatter](https://git.io/unicode-formatter)
