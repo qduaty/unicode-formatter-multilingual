@@ -30,7 +30,7 @@ let formatter = {
 
   nationalCharacters: {
         national: "ĄĆĘŁŃÓŚŹŻąćęłńóśźż",
-        replacements: ["Ą", "Ć", "Ę", "L̷", "Ń", "Ó", "Ś", "Ź", "Ż", "ą", "ć", "ę", "l̷", "ń", "ó", "ś", "ź", "ż"]
+        replacements: ["Ą", "Ć", "Ę", "̷L", "Ń", "Ó", "Ś", "Ź", "Ż", "ą", "ć", "ę", "̷l", "ń", "ó", "ś", "ź", "ż"]
   },
 
   // initialize formatter with CodeMirror
