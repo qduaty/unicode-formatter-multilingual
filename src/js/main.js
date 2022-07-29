@@ -28,11 +28,6 @@ let formatter = {
     mirrored: "\"/ !#$%&')(*+,-.\\0߁ςƐ߂टმ٢8୧:;<=>⸮@AꓭↃꓷƎꟻӘHIႱꓘ⅃MИOꟼϘЯꙄTUVWXYZ][^_`ɒdↄbɘʇϱʜiįʞlmᴎoqpᴙꙅɈυvwxγz}|{~",
   },
 
-  nationalCharacters: {
-        national: "ĄĆĘŁŃÓŚŹŻąćęłńóśźż",
-        replacements: ["Ą", "Ć", "Ę", "̷L", "Ń", "Ó", "Ś", "Ź", "Ż", "ą", "ć", "ę", "̷l", "ń", "ó", "ś", "ź", "ż"]
-  },
-
   // initialize formatter with CodeMirror
   init: function (textarea) {
     // no code highlighting and wrap long lines
@@ -91,17 +86,8 @@ let formatter = {
 
   // format text into selected font
   formatText: function (text, font, options) {
-    let textNew = "";
-    for(let char of text) {
-        let pos = this.nationalCharacters.national.indexOf(char);
-        if(pos >= 0) {
-            textNew += this.nationalCharacters.replacements[pos];
-        }
-        else {
-            textNew += char;
-        }
-    }
-    text = textNew;
+    // Polish "ł” does not seem to be normalized correctly
+    text = text.normalize("NFD").replaceAll("Ł", "L̷").replaceAll("ł", "l̷");
     // set font to normal if already formatted with selected font
     if (this.fonts[font] && this.alreadyFormatted(text, font)) {
       font = "normal";
