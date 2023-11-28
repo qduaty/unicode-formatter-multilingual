@@ -77,7 +77,7 @@ The eraser button will convert your selection back to normal text.
 | <kbd>Ctrl</kbd> <kbd>=</kbd> or <kbd>Ctrl</kbd> <kbd>,</kbd>                  | ꜱᵤᵦₛ𝒸ᵣᵢₚₜ     |
 
 ## Multilingual support
-Some apps, especially Web browsers may mishandle decomposed Unicode, either not displaying it at all or offseting diacritic marks. Below an example of Polish text:
+Added support for unicode decomposition and therefore national characters support. However some apps, especially Web browsers may mishandle decomposed Unicode, either not displaying it at all or offseting diacritic marks. Below an example of Polish text:
 
 𝐷𝑜 𝑡𝑦𝑐ℎ 𝑝𝑜́𝑙 𝑚𝑎𝑙𝑜𝑤𝑎𝑛𝑦𝑐ℎ 𝑧𝑏𝑜𝑧̇𝑒𝑚 𝑟𝑜𝑧𝑚𝑎𝑖𝑡𝑒𝑚,<br>
 𝑊𝑦𝑧̷𝑙𝑎𝑐𝑎𝑛𝑦𝑐ℎ 𝑝𝑠𝑧𝑒𝑛𝑖𝑐𝑎̨, 𝑝𝑜𝑠𝑟𝑒𝑏𝑟𝑧𝑎𝑛𝑦𝑐ℎ 𝑧̇𝑦𝑡𝑒𝑚;<br>
